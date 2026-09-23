@@ -1,0 +1,10 @@
+{
+  "description": "This responsive single-page website showcases Technocom Polyurethanes Egypt's services, providing easy navigation and a functional contact form for inquiries.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
