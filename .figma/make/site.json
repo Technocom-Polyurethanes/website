@@ -1,7 +1,15 @@
 {
-  "description": "This responsive single-page website showcases Technocom Polyurethanes Egypt's services, providing easy navigation and a functional contact form for inquiries.",
+  "title": "Technocom Polyurethanes Egypt | بيت أنظمة البولي يوريثان في مصر",
+  "description": "Technocom Egypt — polyurethane system house and technical agency serving Egypt's industrial, refrigeration, and construction sectors for over 20 years.",
+  "language": "en",
   "robots": {
-    "index": false
+    "index": true
+  },
+  "icons": {
+    "icon": "/logo.png"
+  },
+  "openGraph": {
+    "image": "https://technocom.org/hero-facility.jpg"
   },
   "accessibility": {
     "addBypassLinks": false,
