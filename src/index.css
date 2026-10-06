@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+  --color-navy: #1F3168;
+  --color-dark-navy: #131F4A;
+  --color-deep-red: #8A4A44;
+  --color-light-bg: #F4F5F8;
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Syne', sans-serif;
+
+  --radius-global: var(--radius);
+}
+
+@layer base {
+  :root {
+    --radius: 0.75rem;
+    --section-padding-y: 4rem;
+    --section-padding-x: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    :root {
+      --section-padding-y: 6rem;
+      --section-padding-x: 3rem;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background-color: var(--color-light-bg);
+    color: var(--color-dark-navy);
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-[var(--section-padding-x)] py-[var(--section-padding-y)];
+  }
+}
